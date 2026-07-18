@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Imperial Resturant
+        </title>
+    </head>
+    <link rel="stylesheet" href="rest.css">
+    <body>
+        <h1 class="menu-heading"> Imperial Resturant</h1>
+        <p class="catchPhrase"><strong>Fresh&#8226;Hot&#8226;Delicious&#8226;</strong></p>
+  <hr>
+  <h2 >🥗 Starters</h2>
+  <ul >
+    <li>Tomato soup</li>
+<li>Spring Roll</li>
+<li>Paneer Roll</li>
+  </ul>
+<h2>🍛 Main course</h2>
+<ol>
+    <li>Butter Chicken</li>
+    <li>Shahi Paneer</li>
+    <li>Veg Biryani</li>
+</ol>
+<h2>🥤 Drinks</h2>
+<ul>
+    <li>Cold Coffee</li>
+    <li>Lassi</li>
+    <li>Lemon Soda</li>
+</ul>
+<h2>🍨 Desserts</h2>
+<ul>
+    <li>Ice Cream</li>
+    <li>Brownie</li>
+    <li>Gulab Jamun</li>
+</ul>
+<hr>
+<h2>📋 Special Combo</h2>
+<ul>
+    <li>Family Meal
+        <ul>
+            <li>2 Butter Chicken</li>
+            <li>4 Butter Naan</li>
+             <li>2 Cold Drink</li>
+        </ul>
+    </li>
+</ul>
+h2{
+    font-family:cursive;
+    font-size:23px;
+    color:rgb(241, 105, 105);
+}
+ul{
+    font-family:cursive;
+    font-size:18px;
+    color:hsl(350, 84%, 75%);
+}
+ol{
+    font-family:cursive;
+    font-size:18px;
+    color:hsl(350, 84%, 75%);
+}
+.menu-heading{
+    font-family:cursive;
+    animation: shifts 4s infinite;
+}
+@keyframes  shifts{
+     0%   { color: #ff0000; } 
+            25%  { color: #00ff00; }
+            50%  { color: #0000ff; } 
+            75%  { color: hsl(60, 100%, 47%); }
+            100% { color: #ff0000; }
+}
+body{
+    background-color:rgb(70, 70, 70)
+}
+hr{
+    border:0;
+    border-top:1px solid green;
+}
+    </body>
+</html>
